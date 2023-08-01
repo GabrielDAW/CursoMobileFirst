@@ -68,3 +68,34 @@ header img {
     font-weight: 500;
     line-height: 1.8rem;
 }
+.header--title-container .header--button {
+    /* Posicionamiento */
+    position: absolute;
+    top: 270px;
+    display: block;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: 32px;
+    /* Modelo de caja */
+    padding: 16px;
+    width: 229px;
+    height: 48px;
+    background-color: var(--off-white);
+    color: var(--warm-black, #201E1C);
+    /* Tipografía */
+    font-size: 1.4rem;
+    font-weight: 700;
+    text-decoration: none;
+    /* Sombra */
+    box-shadow: 0px 4px 8px 0px rgba(89, 73, 30, 0.16);
+    border: none;
+    border-radius: 4px;
+}
+.header--button span {
+    display: inline-block;
+    width: 12px;
+    height: 8px;
+    margin-left: 8px;
+    background-image: url('./assets/icons/down-arrow.svg');
+}
