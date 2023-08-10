@@ -1,0 +1,25 @@
+.main-exchange-container--title {
+    max-width: 930px;
+}
+.product-detail--title {
+    max-width: 930px;
+}
+.product-cards--container {
+    flex-wrap: wrap;
+    max-width: 930px;
+}
+.main-tables-container {
+    justify-content: center;
+    max-width: 930px;
+    align-items: center;
+    margin: 0 auto;
+}
+.plans--title {
+    max-width: 930px;
+}
+.plans-container--slider {
+    justify-content: center;
+    max-width: 930px;
+    align-items: center;
+    margin: 0 auto;
+}
